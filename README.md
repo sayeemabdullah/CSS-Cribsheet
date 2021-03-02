@@ -53,7 +53,35 @@ As we know the basic selectors, we can also use some relational selectors too
     color: purple;
   }
   ```
-* 
+  
+And if you want to change only the first decent or direct child use the following code
+
+ ``` css
+  #products > p {
+    color: purple;
+  }
+  ```
+  
+* **Sibling Selector:** Selecting the element that comes right after the selected element. We can use the following code 
+
+ ``` css
+  #products + p {
+    color: purple;
+  }
+  ```
+  
+And if you want to choose all the elements after the chosen one
+
+ ``` css
+  #products ~ p {
+    color: purple;
+  }
+  ```
+  
+So in the above two codes, in the first one after **products** the first **p** will be purple and in the second one after product, all p will be purple.
+  
+
+
 
 
 
