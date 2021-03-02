@@ -105,7 +105,7 @@ Let say you want all the even number of a list purple. We will use the following
 
  ``` css
   ul li:nth-child(even) {
-  color: purple;
+  	color: purple;
 }
   ```
 We can also use **even** and also **formula** like 3n.
