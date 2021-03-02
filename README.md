@@ -19,7 +19,7 @@ ___
 
 In the HTML file, we will add the following line -
 
-```
+``` html
 <link rel="stylesheet" href="styles.css" />
 ```
 
