@@ -80,8 +80,7 @@ And if you want to choose all the elements after the chosen one
   
 So in the above two codes, in the first one after **products** the first **p** will be purple and in the second one after product, all p will be purple.
   
-
-
+___
 
 
 
