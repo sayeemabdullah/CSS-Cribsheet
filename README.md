@@ -31,7 +31,7 @@ As there are different browsers and they render some HTML elements differently. 
 
 ___
 
-### Selectors
+### Basic Selectors
 
 We can select elements for styling in the following ways:
 
@@ -39,6 +39,22 @@ We can select elements for styling in the following ways:
 * **ID:** Choosing an element by ID and can be used in a single element
 * **Class:** Choosing an element by Class and can be used in multiple elements  
 * **Attribute:**  Choosing an element by Attribute but it is not recommended 
+
+___
+
+### Relational Selectors
+
+As we know the basic selectors, we can also use some relational selectors too
+
+*  **Descendant Selector:** Choosing an element by **ID / Class** and **Type** like below
+	
+  ``` css
+  #products p {
+    color: purple;
+  }
+  ```
+* 
+
 
 
 
