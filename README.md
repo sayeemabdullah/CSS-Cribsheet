@@ -118,8 +118,12 @@ Let say you want to change the color of the visited link to red we can use the f
 }
   ```
 
-You can also use `a:link` to change the color of unvisited link and if you want to change color when the user hover you can use `a:hover` and also add `a:focus` if the user using tab key.
+You can also use `a:link` to change the color of unvisited link and if you want to change color when the user hover you can use `a:hover` and also add `a:focus` if the user using tab key it will focus.
 
 ___
 
+###  Pseudo-element Selectors
 
+
+
+___
