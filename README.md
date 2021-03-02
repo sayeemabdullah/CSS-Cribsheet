@@ -84,8 +84,31 @@ ___
 
 ###  Pseudo-class Selectors
 
+Pseudo-class is not something we define it’s something which the browser defines.
 
+ ``` css
+  article :first-class {
+    color: purple;
+  }
+  ```
+  
+``` html
+<article>
+	<h1>fist</h1>
+        <p>second</p>
+</article>
+```
 
+So the first element in **article** will be purple. There are many more like `first-of-type` which will make all the first occurrence of a type purple and also `last-child` and `last-of-type` for making the last child and the last of each type purple respectively.  
+
+Let say you want all the even number of a list purple. We will use the following code:
+
+ ``` css
+  ul li:nth-child(even) {
+  color: purple;
+}
+  ```
+We can also use **even** and also **formula** like 3n.
 
 ___
 
