@@ -108,7 +108,7 @@ Let say you want all the even number of a list purple. We will use the following
   	color: purple;
 }
   ```
-We can also use **even** and also **formula** like 3n.
+We can also use **even** and also **formula** like 3n (every 3rd item in the list) and so on.
 
 ___
 
