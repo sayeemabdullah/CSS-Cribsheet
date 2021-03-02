@@ -46,7 +46,7 @@ ___
 
 As we know the basic selectors, we can also use some relational selectors too
 
-*  **Descendant Selector:** Choosing an element by **ID / Class** and **Type** like below
+*  **Descendant Selector:** Choosing an element by **ID** and **Type** like below
 	
   ``` css
   #products p {
