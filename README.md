@@ -87,7 +87,7 @@ ___
 Pseudo-class is not something we define it’s something which the browser defines.
 
  ``` css
-  article :first-class {
+  article :first-child {
     color: purple;
   }
   ```
