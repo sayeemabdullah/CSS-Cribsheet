@@ -110,6 +110,16 @@ Let say you want all the even number of a list purple. We will use the following
   ```
 We can also use **even** and also **formula** like 3n (every 3rd item in the list) and so on.
 
+Let say you want to change the color of the visited link to red we can use the following code:
+
+ ``` css
+  a:visited {
+  	color: red;
+}
+  ```
+
+You can also use `a:link` to change the color of unvisited link and if you want to change color when the user hover you can use `a:hover` and also add `a:focus` if the user using tab key.
+
 ___
 
 
