@@ -35,9 +35,10 @@ ___
 
 We can select elements for styling in the following ways:
 
-* **Type:**
-* **ID:**
-* **Class:** 
-* **Attribute:**  
+* **Type:** Choosing an element by type. 
+* **ID:** Choosing an element by ID and can be used in a single element
+* **Class:** Choosing an element by Class and can be used in multiple elements  
+* **Attribute:**  Choosing an element by Attribute but it is not recommended 
+
 
 
