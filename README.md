@@ -238,7 +238,7 @@ ___
 
 ## Box Model
 
-The box model consist of 4 elements :
+The box model consist of 4 things :
 
 * Margin 
 * Border 
