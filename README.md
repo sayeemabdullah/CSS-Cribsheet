@@ -124,6 +124,15 @@ ___
 
 ###  Pseudo-element Selectors
 
+Pseudo-element is also not something we define it’s something which the browser defines just like **Pseudo-class Selectors** but instead of using **":"** we will use **"::"**.
+
+ ``` css
+ p::first-letter {
+  font-size: 140%;
+}
+  ```
+  
+So if we write the above code the first word of each paragraph will have a font-size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If you want to add something before or after a paragraph you can use `p::before` and `p::after` respectively. 
 
 
 ___
