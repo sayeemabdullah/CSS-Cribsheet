@@ -138,4 +138,60 @@ ___
 
 ###  Selectors Specificty
 
+While coding sometimes triggers the same elements more than once like below:
+
+ ``` css
+h1 {
+  color: blue;
+}
+
+.highlight {
+  color: yellow;
+}
+  ```
+  
+``` html
+<h1 class="highlight">I am blue or yellow?</h1>
+```
+In these types of cases, the above list is followed **the first one having the highest priority and the last one the least**.
+
+* ID Selector
+* Class and Attribute Selector
+* Element Selector
+
+But if there are 2 IDs with the same name like below:
+
+``` css
+#products {
+  color: purple;
+}
+
+#products {
+  color: pink;
+}
+```
+In the above case, it will **choose the very last one**. So the color will be pink.
+
+But lets say from the first snnipet of code we want to use **h1** which makes the color **blue**. So we have to add a keyword **!important** after **color: blue;** as following:
+
+ ``` css
+h1 {
+  color: blue !important;
+}
+
+.highlight {
+  color: yellow;
+}
+  ```
+Or you can be more specific like below: 
+
+ ``` css
+h1.highlight {
+  color: blue;
+}
+  ```
+Using **!important** keyword is **not recommended**.
+___
+
+
 ___
