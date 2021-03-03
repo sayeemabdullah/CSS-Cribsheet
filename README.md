@@ -265,4 +265,6 @@ ___
 
 ## Overflow
 
-Sometimes in a fixed-sized element, overflow happens. In those cases, we use `overflow: hidden;` to hide the overflowed content or we can also use `overflow: scroll;` or `overflow: auto;`. To contol by the X (Horizontal) and Y (Vertical) axis by using two values like `overflow: hidden auto;`
+Sometimes in a fixed-sized element, overflow happens. In those cases, we use `overflow: hidden;` to hide the overflowed content or we can also use `overflow: scroll;` or `overflow: auto;`. To contol by the X (Horizontal) and Y (Vertical) axis by using two values like `overflow: hidden auto;`.
+
+___
