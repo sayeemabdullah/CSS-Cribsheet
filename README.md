@@ -276,7 +276,7 @@ There are two types of Measuring Categories:
 * Absolute
 * Relative 
 
-In **Absolute** there is **px (Pixel)** and in **Relative** there are **% (Percentage)** which is relative to the size of the container, **vw (Viewport Width)** and **vh (Viewport Height)** which is relative to the viewport, and lastly **rem (The root element's font-size)** and **em** which is relative to the font size.   
+In **Absolute** there is **px (Pixel)** and in **Relative** there are **% (Percentage)** which is relative to the size of the container, **vw (Viewport Width)** and **vh (Viewport Height)** which is relative to the viewport, and lastly **rem (The root element's font-size)** and **em (10x font size of the current element)** which is relative to the font size.   
  
 
 
