@@ -54,7 +54,7 @@ As we know the basic selectors, we can also use some relational selectors too
   }
   ```
   
-And if you want to change only the first decent or direct child use the following code
+And if we want to change only the first decent or direct child use the following code
 
  ``` css
   #products > p {
@@ -70,7 +70,7 @@ And if you want to change only the first decent or direct child use the followin
   }
   ```
   
-And if you want to choose all the elements after the chosen one
+And if we want to choose all the elements after the chosen one
 
  ``` css
   #products ~ p {
@@ -101,7 +101,7 @@ Pseudo-class is not something we define it’s something which the browser defin
 
 So the first element in **article** will be purple. There are many more like `first-of-type` which will make all the first occurrence of a type purple and also `last-child` and `last-of-type` for making the last child and the last of each type purple respectively.  
 
-Let say you want all the even number of a list purple. We will use the following code:
+Let say we want all the even number of a list purple. We will use the following code:
 
  ``` css
   ul li:nth-child(even) {
@@ -110,7 +110,7 @@ Let say you want all the even number of a list purple. We will use the following
   ```
 We can also use **even** and also **formula** like 3n (every 3rd item in the list).
 
-Let say you want to change the color of the visited link to red we can use the following code:
+Let say we want to change the color of the visited link to red we can use the following code:
 
  ``` css
   a:visited {
@@ -118,7 +118,7 @@ Let say you want to change the color of the visited link to red we can use the f
 }
   ```
 
-You can also use `a:link` to change the color of unvisited link and if you want to change color when the user hover you can use `a:hover` and also add `a:focus` so that if the user using tab key it will focus.
+We can also use `a:link` to change the color of unvisited link and if we want to change color when the user hover we can use `a:hover` and also add `a:focus` so that if the user using tab key it will focus.
 
 ___
 
@@ -132,7 +132,7 @@ Pseudo-element is also not something we define it’s something which the browse
 }
   ```
   
-So if we write the above code the first word of each paragraph will have a font-size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If you want to add something before or after a paragraph you can use `p::before` and `p::after` respectively. 
+So if we write the above code the first word of each paragraph will have a font-size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If we want to add something before or after a paragraph we can use `p::before` and `p::after` respectively. 
 
 ___
 
@@ -183,7 +183,7 @@ h1 {
   color: yellow;
 }
   ```
-Or you can be more specific like below: 
+Or we can be more specific like below: 
 
  ``` css
 h1.highlight {
@@ -218,3 +218,4 @@ A gradient shows the transition between two or more colors. If we want to write 
 ``` html
 <div class="box"></div>
 ```
+We can also change the transit to a different direction by adding `to right`, `to bottom right`, or according to our need. We can also use a specific degree like `45deg` and also select the percentage of a specific color in the gradient. 
