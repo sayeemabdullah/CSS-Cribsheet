@@ -230,6 +230,8 @@ Border takes three values thickness, style, and color. There are different types
 
 ___
 
+### Shadow 
 
+We can use `box-shadow` to make a shadow of box where we pass 4 values **Horizontal Distance-Vertical Distace-Softness-Color**. We can also use `text-shadow` for a text. 
 
 ___
