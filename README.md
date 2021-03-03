@@ -136,6 +136,17 @@ So if we write the above code the first word of each paragraph will have a font-
 
 ___
 
+## Universal Selector
+
+If we want to make all the elements into a specific style we use `*` as follows:
+
+ ``` css
+* {
+  color: purple;
+}
+  ```
+
+___
 ##  Selectors Specificty
 
 While coding sometimes triggers the same elements more than once like below:
@@ -250,5 +261,8 @@ To get a clearer view here is a diagram:
 ![boxmodel](https://user-images.githubusercontent.com/31423599/109760921-c5d48d00-7c19-11eb-8081-4b38fb4e2015.png)
 
 
-
 ___
+
+## Overflow
+
+Sometimes in a fixed-sized element, overflow happens. In those cases, we use `overflow: hidden;` to hide the overflowed content or we can also use `overflow: scroll;` or `overflow: auto;`. To contol by the X (Horizontal) and Y (Vertical) axis by using two values like `overflow: hidden auto;`
