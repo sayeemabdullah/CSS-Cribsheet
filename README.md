@@ -235,3 +235,20 @@ ___
 We can use `box-shadow` to make a shadow of box where we pass 4 values **Horizontal Distance-Vertical Distace-Softness-Color**. We can also use `text-shadow` for a text. 
 
 ___
+
+## Box Model
+
+The box model consist of 4 elements :
+
+* Margin 
+* Border 
+* Padding 
+* Content 
+
+To get a clearer view here is a diagram:
+
+![boxmodel](https://user-images.githubusercontent.com/31423599/109760921-c5d48d00-7c19-11eb-8081-4b38fb4e2015.png)
+
+
+
+___
