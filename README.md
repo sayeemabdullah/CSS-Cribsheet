@@ -162,7 +162,7 @@ ___
 
 ## Universal Selector
 
-If we want to make all the elements into a specific style we use `*` as follows:
+If we want to make all the element types into a specific style we use `*` as follows:
 
  ``` css
 * {
@@ -173,7 +173,7 @@ If we want to make all the elements into a specific style we use `*` as follows:
 ___
 ##  Selectors Specificty
 
-While coding sometimes triggers the same elements more than once like below:
+While coding different selectors sometimes triggers the same elements more than once like below:
 
  ``` css
 h1 {
