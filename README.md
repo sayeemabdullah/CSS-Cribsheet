@@ -224,3 +224,12 @@ https://cssgradient.io : This website is **recommended** to get the right gradie
 
 ___
 
+### Borders 
+
+Border takes three values thickness, style, and color. There are different types of styles `dashed`, `solid`, and so on. Something to remember while using `border-width` it takes 4 values in the following order  **Top-Right-Bottom-Left**. We can also use `border-color`, `border-radius` and so on.
+
+___
+
+
+
+___
