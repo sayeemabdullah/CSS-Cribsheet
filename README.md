@@ -204,4 +204,17 @@ There are **four ways** to select a color in CSS. They are by -
 
 ___
 
+### Gradient 
 
+A gradient shows the transition between two or more colors. If we want to write a code that will make a box where the first color is blue and it transit into yellow it will be like below:
+
+``` css
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(blue, yellow);
+}
+```
+``` html
+<div class="box"></div>
+```
