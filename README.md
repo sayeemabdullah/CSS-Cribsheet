@@ -15,7 +15,7 @@ Starting with the basic, there are **three ways of using CSS**:
 
 ___
 
-### How to connect CSS with HTML?
+## How to connect CSS with HTML?
 
 In the HTML file, we will add the following line -
 
@@ -25,13 +25,13 @@ In the HTML file, we will add the following line -
 
 ___
 
-### Normalizing CSS
+## Normalizing CSS
 
 As there are different browsers and they render some HTML elements differently. So [normalize.css](https://necolas.github.io/normalize.css/8.0.1/normalize.css) is a stylesheet that provides a basic default style.  
 
 ___
 
-### Basic Selectors
+## Basic Selectors
 
 We can select elements for styling in the following ways:
 
@@ -42,7 +42,7 @@ We can select elements for styling in the following ways:
 
 ___
 
-### Relational Selectors
+## Relational Selectors
 
 As we know the basic selectors, we can also use some relational selectors too
 
@@ -82,7 +82,7 @@ So in the above two codes, in the first one after **products** the first **p** w
   
 ___
 
-###  Pseudo-class Selectors
+##  Pseudo-class Selectors
 
 Pseudo-class is not something we define it’s something which the browser defines.
 
@@ -122,7 +122,7 @@ We can also use `a:link` to change the color of unvisited link and if we want to
 
 ___
 
-###  Pseudo-element Selectors
+##  Pseudo-element Selectors
 
 Pseudo-element is also not something we define it’s something which the browser defines just like **Pseudo-class Selectors** but instead of using **":"** we will use **"::"**.
 
@@ -136,7 +136,7 @@ So if we write the above code the first word of each paragraph will have a font-
 
 ___
 
-###  Selectors Specificty
+##  Selectors Specificty
 
 While coding sometimes triggers the same elements more than once like below:
 
@@ -193,7 +193,7 @@ h1.highlight {
 Using **!important** keyword is **not recommended**.
 ___
 
-### Colors
+## Colors
 
 There are **four ways** to select a color in CSS. They are by - 
 
@@ -204,7 +204,7 @@ There are **four ways** to select a color in CSS. They are by -
 
 ___
 
-### Gradient 
+## Gradient 
 
 A gradient shows the transition between two or more colors. If we want to write a code that will make a box where the first color is blue and will transit into yellow from top to bottom it will be like below:
 
@@ -224,13 +224,13 @@ https://cssgradient.io : This website is **recommended** to get the right gradie
 
 ___
 
-### Borders 
+## Borders 
 
 Border takes three values thickness, style, and color. There are different types of styles `dashed`, `solid`, and so on. Something to remember while using `border-width` it takes 4 values in the following order  **Top-Right-Bottom-Left**. We can also use `border-color`, `border-radius` and so on.
 
 ___
 
-### Shadow 
+## Shadow 
 
 We can use `box-shadow` to make a shadow of box where we pass 4 values **Horizontal Distance-Vertical Distace-Softness-Color**. We can also use `text-shadow` for a text. 
 
