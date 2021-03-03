@@ -198,8 +198,8 @@ ___
 There are **four ways** to select a color in CSS. They are by - 
 
 * Name
-* RGB
-* HSL 
+* RGB / RGBA
+* HSL / HSLA
 * Hexadecimal 
 
 ___
