@@ -296,3 +296,18 @@ Another thing to remember is `z-index`. If `z-index` is negative that means the 
 
 ___
 
+## Floating Elements 
+
+The float property specifies that whether the element floats left or right by using `float: left;` or `float: right;` respectively. If we want to clear the left, right or both sides of the floating element we can use `clear: left`, `clear:right`, and `clear: both` respectively.
+
+As the parent element doesn’t see the floating element so the view will collapse or will look weird. To solve this you have to **clear** after or you can use the following code and call the **class**:
+
+``` css
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+```
+
+
