@@ -258,7 +258,8 @@ The box model consist of 4 things :
 
 To get a clearer view here is a diagram:
 
-![boxmodel](https://user-images.githubusercontent.com/31423599/109760921-c5d48d00-7c19-11eb-8081-4b38fb4e2015.png)
+![boxmodel](https://user-images.githubusercontent.com/31423599/109789169-41463680-7c3a-11eb-8f9a-df29e6a6ff0f.png)
+
 
 
 ___
