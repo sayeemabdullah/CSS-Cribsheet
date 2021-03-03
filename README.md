@@ -38,7 +38,7 @@ We can select elements for styling in the following ways:
 * **Type:** Choosing an element by type
 * **ID:** Choosing an element by ID and can be used in a single element
 * **Class:** Choosing an element by Class and can be used in multiple elements  
-* **Attribute:**  Choosing an element by Attribute but it is not recommended 
+* **Attribute:**  Choosing an element by Attribute but is not recommended 
 
 ___
 
@@ -134,5 +134,8 @@ Pseudo-element is also not something we define it’s something which the browse
   
 So if we write the above code the first word of each paragraph will have a font-size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If you want to add something before or after a paragraph you can use `p::before` and `p::after` respectively. 
 
+___
+
+###  Selectors Specificty
 
 ___
