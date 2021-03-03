@@ -206,7 +206,7 @@ ___
 
 ### Gradient 
 
-A gradient shows the transition between two or more colors. If we want to write a code that will make a box where the first color is blue and it transit into yellow from top to bottom it will be like below:
+A gradient shows the transition between two or more colors. If we want to write a code that will make a box where the first color is blue and will transit into yellow from top to bottom it will be like below:
 
 ``` css
 .box {
