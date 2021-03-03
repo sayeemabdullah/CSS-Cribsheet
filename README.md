@@ -218,4 +218,9 @@ A gradient shows the transition between two or more colors. If we want to write 
 ``` html
 <div class="box"></div>
 ```
-We can also change the transit to a different direction by adding `to right`, `to bottom right`, or according to our need. We can also use a specific degree like `45deg` and also select the percentage of a specific color in the gradient. 
+We can also change the transit to a different direction by adding `to right`, `to bottom right`, or according to our need. We can also use a specific degree like `45deg` and also select a **percentage** of a specific color in the gradient. We can also use `radial-gradient()`.
+
+https://cssgradient.io : This website is **recommended** to get the right gradient for your project as it generates the **CSS code** too. 
+
+___
+
