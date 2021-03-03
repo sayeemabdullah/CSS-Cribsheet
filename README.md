@@ -285,7 +285,7 @@ ___
 
 We can position an element by setting values in 5 different ways. They are -
 
-* **Static:** This is the default type
+* **Static:** Default type
 * **Relative:** Relative to its normal position
 * **Fixed:** Relative to the viewpoint
 * **Absolute:** Relative to the parent (the container must be positioned “Relative”)
@@ -309,5 +309,10 @@ As the parent element doesn’t see the floating element so the view will collap
   clear: both;
 }
 ```
+___
+
+## FlexBox
+
+___
 
 
