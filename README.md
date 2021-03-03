@@ -46,6 +46,7 @@ In the HTML file, we will add the following line -
 ``` html
 <link rel="stylesheet" href="styles.css" />
 ```
+In **href** we will put the path address where the CSS file is kept. 
 
 ___
 
