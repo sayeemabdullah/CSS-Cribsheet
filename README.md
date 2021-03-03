@@ -193,5 +193,15 @@ h1.highlight {
 Using **!important** keyword is **not recommended**.
 ___
 
+### Colors
+
+There are **four ways** to select a color in CSS. They are by - 
+
+* Name
+* RGB
+* HSL 
+* Hexadecimal 
 
 ___
+
+
