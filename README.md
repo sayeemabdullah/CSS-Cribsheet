@@ -410,18 +410,21 @@ Grid is a grid-based layout by rows and columns. Starting with the basic, we can
 
 ``` css
   /* 3X2  */
+  display: grid;
   grid-template-rows: 100px 100px 100px;
   grid-template-columns: 100px 100px;
 ```
 
 ``` css
   /* 3X2  */
+  display: grid;
   grid-template-rows: repeat(3, 100px);
   grid-template-columns: repeat(2, 100px);
 ```
 
 ``` css
   /* 3X2  */
+  display: grid;
   grid-template: repeat(3, 100px) / repeat(2, 100px);
 ```
 
