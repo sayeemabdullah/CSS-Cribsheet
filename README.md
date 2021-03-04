@@ -425,5 +425,18 @@ Grid is a grid-based layout by rows and columns. Starting with the basic, we can
   grid-template: repeat(3, 100px) / repeat(2, 100px);
 ```
 
+#### Align
+
+For aligning items we can use the following properties:
+
+* `justify-items` : along the horizontal axis
+* `align-items` : along the vertical axis
+* `justify-content` : along the horizontal axis
+* `align-content` : along the vertical axis
+
+
+`justify-items` and `align-items` is used to align items in the grid and `justify-content` and `align-content` to align the entire grid. 
+
+
 ___
 
