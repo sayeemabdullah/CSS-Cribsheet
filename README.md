@@ -359,6 +359,30 @@ FlexBox is used for laying out elements in one direction. Let say we want to sho
 
 So in the above code, we can see that `display: flex` makes the display flex and we can change the direction however we want eg. `flex-direction: row;` for displaying as a row or `flex-direction: column;` for displaying as column and you can reverse the row or column by `flex-direction: row-reverse;` and `flex-direction: column-reverse;` respectively. 
 
+### Align
+
+Now to understand **Align**  better we need to know about **Axes**. There are **two types** of Axes-
+
+* **Main:** Primary
+* **Cross:** Secondary
+
+When the direction is **Row**, **Main** is **Horizontal** and  **Cross** is **Vertical**. 
+On the other hand when the direction is **Column**, **Main** is **Vertical** and  **Cross** is **Horizontal**.
+
+Now to `Align items` we need to know **3 properties**. They are-
+
+* `justify-content` : Along the main axis
+* `align-items` : Along the cross axis
+* `align-content`
+
+When using `justify-content` we can use `justify-content : flex-start` , `justify-content : space-between` , `justify-content : space-evenly` and many more to style the primary. Then while using `align-items` which is to style the secondary we can use `align-items : flex-start` , `align-items : flex-end` and many more.
+
+`flex-wrap` is another important property of flex. Let’s say when there are multiple boxes in a row so to keep them in a single line they shrink the size of the boxes but if we don’t want that we have to use `flex-wrap` and change the default (`nowrap`) to `wrap`.
+
+After this we will see that the boxes are not in the center of the axes to change this `align-content` comes which can align multiple lines or whole content. 
+
+To style a flex item we can use `align-self`.
+
 
 ___
 
