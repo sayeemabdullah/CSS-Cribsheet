@@ -440,6 +440,12 @@ For aligning items we can use the following properties:
 
 `justify-items` and `align-items` is used to align items in the grid and `justify-content` and `align-content` to align the entire grid. 
 
+If we want to change the size of the grid column or row by **fr (fraction : of the the existing free space)** or size we can do it like below:
+
+``` css
+display: grid;
+grid-template: repeat(3, 100px) / 100px 30fr 70fr;
+```
 
 ___
 
