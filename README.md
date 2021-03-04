@@ -38,6 +38,7 @@ ___
 |[Floating Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#floating-elements)|
 |[FlexBox](https://github.com/sayeemabdullah/CSS-Cribsheet#flexbox)|
 |[Grid](https://github.com/sayeemabdullah/CSS-Cribsheet#grid)|
+|[Hiding Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#hiding-elements)|
 
 
 ## How to connect CSS with HTML?
