@@ -39,6 +39,8 @@ ___
 |[FlexBox](https://github.com/sayeemabdullah/CSS-Cribsheet#flexbox)|
 |[Grid](https://github.com/sayeemabdullah/CSS-Cribsheet#grid)|
 |[Hiding Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#hiding-elements)|
+|[Media Queries](https://github.com/sayeemabdullah/CSS-Cribsheet#media-queries)|
+
 
 
 ## How to connect CSS with HTML?
