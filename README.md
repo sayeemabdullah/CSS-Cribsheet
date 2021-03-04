@@ -447,5 +447,14 @@ display: grid;
 grid-template: repeat(3, 100px) / 100px 30fr 70fr;
 ```
 
+#### Gap
+
+There are three properties for gap. They are -
+
+* `row-gap` : Gaps between rows
+* `column-gap` : Gaps between columns 
+* `gap` : Short hand for `row-gap` and `column-gap`
+
+
 ___
 
