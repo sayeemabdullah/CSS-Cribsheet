@@ -490,5 +490,29 @@ Both of the codes will do the same work. It depends on the user what s/he wants 
 grid-area: 1 / 1 / 1 / 3;
 ```
 
+There is another way to place items that are in named areas. We use `grid-template-area` and `grid-area`.
+
+First `grid-template-area` is naming the rows and columns of your grid like below:
+
+```css
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+```
+So between the first double quotation marks the first name is of the first column of the first row and the second word is of the second column of the first row. This is how it is named. Now let’s say we don’t want to name the second column of the first row we can just use a `.` like below:
+
+```css
+  grid-template-areas:
+    "header ."
+    "sidebar main"
+    "footer footer";
+```
+
+Now we can call by name like below:
+
+```css
+grid-area: header;
+```
 ___
 
