@@ -338,6 +338,28 @@ ___
 
 ## FlexBox
 
+FlexBox is used for laying out elements in one direction. Let say we want to show some boxes in a container in a row we can use the below code:
+
+``` css
+
+.container {
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+}
+
+```
+
+So in the above code, we can see that `display: flex` makes the display flex and we can change the direction however we want eg. `flex-direction: row;` for displaying as a row or `flex-direction: column;` for displaying as column and you can reverse the row or column by `flex-direction: row-reverse;` and `flex-direction: column-reverse;` respectively. 
+
+
 ___
 
 
