@@ -476,6 +476,19 @@ So from the above code, we can understand it takes the row/column number as a va
  ```css
 grid-column: 1 / 3;
 ```
+We can also use `span` like below:
+
+ ```css
+grid-column: 1 / span 2;
+```
+
+Both of the codes will do the same work. It depends on the user what s/he wants to use. 
+
+`grid-area` takes 4 values: **start of row - start of column - end of row - end of column** like below:
+
+``` css
+grid-area: 1 / 1 / 1 / 3;
+```
 
 ___
 
