@@ -515,9 +515,24 @@ Now we can call by name like below:
 ```css
 grid-area: header;
 ```
+
 ___
 
 ## Hiding Elements 
+
+There are two ways of hiding an element. The first one is commonly used which is:
+
+``` css
+ display: none;
+```
+In the above case the whole element  goes away and another way is where the element stays but cannot be seen. To do so we use the below code:
+
+```css
+visibility: hidden;
+``` 
+___
+
+## Media Queries 
 
 
 ___
