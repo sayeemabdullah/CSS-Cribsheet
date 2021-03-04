@@ -37,6 +37,7 @@ ___
 |[Postioning](https://github.com/sayeemabdullah/CSS-Cribsheet#postioning)|
 |[Floating Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#floating-elements)|
 |[FlexBox](https://github.com/sayeemabdullah/CSS-Cribsheet#flexbox)|
+|[Grid](https://github.com/sayeemabdullah/CSS-Cribsheet#grid)|
 
 
 ## How to connect CSS with HTML?
@@ -381,9 +382,30 @@ When using `justify-content` we can use `justify-content : flex-start` , `justif
 
 After this we will see that the boxes are not in the center of the axes to change this `align-content` comes which can align multiple lines or whole content. 
 
-To style a flex item we can use `align-self`.
+To style a **flex item** we can use `align-self`.
 
+### Sizing
+
+There are some properties to remember which is used for sizing **flex item**. They are -
+
+* `flex-basis` : The initial size of a flex item
+* `flex-grow` : The growth factor
+* `flex-shrink` : The shrink factor
+* `flex` : Combination of above three properties 
+
+`flex-basis` takes size as value. When the `flex-direction: row;` its overwrites **width** and when `flex-direction: column;` it overwrites **height**.
+
+`flex-grow` and `flex-shrink` take growth factor and shrink factor as value respectively and do work accordingly.
+
+Lets say we have 3 boxes, **box-one** , **box-two** and **box-three**. If box-one has a factor of 2 and the other two boxes of 1. So basically box-one will be 2/4th. 
+
+Finally `flex` takes **3 values** in the following order : 
+**`flex-grow`-`flex-shrink`-`flex-basis`**.
 
 ___
 
+## Grid 
+
+
+___
 
