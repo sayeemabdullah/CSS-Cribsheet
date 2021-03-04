@@ -516,3 +516,7 @@ grid-area: header;
 ```
 ___
 
+## Hiding Elements 
+
+
+___
