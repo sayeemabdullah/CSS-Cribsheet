@@ -406,6 +406,24 @@ ___
 
 ## Grid 
 
+Grid is a grid-based layout by rows and columns. Starting with the basic, we can define grid by the following ways -
+
+``` css
+  /* 3X2  */
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px;
+```
+
+``` css
+  /* 3X2  */
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(2, 100px);
+```
+
+``` css
+  /* 3X2  */
+  grid-template: repeat(3, 100px) / repeat(2, 100px);
+```
 
 ___
 
