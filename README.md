@@ -456,5 +456,26 @@ There are three properties for gap. They are -
 * `gap` : Short hand for `row-gap` and `column-gap`
 
 
+#### Placing
+
+There are three properties for placing items. They are -
+
+* `grid-row`  
+* `grid-column` 
+* `grid-area` : Shorthand for `grid-row` and `grid-column` 
+
+Let’s say we want to use the third row - second column we can use the below code:
+
+``` css
+grid-column: 1;
+grid-row: 3;
+```
+
+So from the above code, we can understand it takes the row/column number as a value, and now if we want to start at the first column and end on the third column. We can use the following code:
+
+ ```css
+grid-column: 1 / 3;
+```
+
 ___
 
