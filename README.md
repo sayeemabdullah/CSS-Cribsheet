@@ -360,7 +360,7 @@ FlexBox is used for laying out elements in one direction. Let say we want to sho
 
 So in the above code, we can see that `display: flex` makes the display flex and we can change the direction however we want eg. `flex-direction: row;` for displaying as a row or `flex-direction: column;` for displaying as column and you can reverse the row or column by `flex-direction: row-reverse;` and `flex-direction: column-reverse;` respectively. 
 
-### Align
+#### Align
 
 Now to understand **Align**  better we need to know about **Axes**. There are **two types** of Axes-
 
@@ -384,7 +384,7 @@ After this we will see that the boxes are not in the center of the axes to chang
 
 To style a **flex item** we can use `align-self`.
 
-### Sizing
+#### Sizing
 
 There are some properties to remember which is used for sizing **flex item**. They are -
 
