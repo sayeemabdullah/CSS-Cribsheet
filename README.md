@@ -320,7 +320,7 @@ We can position an element by setting values in 5 different ways. They are -
 * **Absolute:** Relative to the parent (the container must be positioned “Relative”)
 * **Sticky:** Relative to the user's scroll position
 
-Another thing to remember is `z-index`. If `z-index` is negative that means the element is further than us and if positive that means closer. We can use `top`, `bottom`, `left` and `right` to fix the position.
+Another thing to remember is `z-index`. If `z-index` is negative that means the element is further than us and if positive that means closer. We can use `top`, `bottom`, `left` and `right` to fix the position but if and only if the `position` is not static.
  
 
 ___
