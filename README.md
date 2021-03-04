@@ -46,7 +46,7 @@ ___
 ## How to connect CSS with HTML?
 
 In the HTML file, we will add the following line -
-
+ hidden;
 ``` html
 <link rel="stylesheet" href="styles.css" />
 ```
@@ -525,7 +525,7 @@ ___
 There are two ways of hiding an element. The first one is commonly used which is:
 
 ``` css
- display: none;
+display: none;
 ```
 In the above case the whole element  goes away and another way is where the element stays but cannot be seen. To do so we use the below code:
 
