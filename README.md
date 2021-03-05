@@ -525,17 +525,20 @@ ___
 There are two ways of hiding an element. The first one is commonly used which is:
 
 ``` css
-display: none;
+ display: none;
 ```
-In the above case the whole element  goes away and another way is where the element stays but cannot be seen. To do so we use the below code:
+In the above case, the whole element goes away and another way is where the element stays but cannot be seen. To do so we use the below code:
 
 ```css
 visibility: hidden;
 ``` 
+
 ___
+
 
 ## Media Queries 
 
-With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile and vice-versa. 
+With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile or vice-versa.
 
 ___
+
