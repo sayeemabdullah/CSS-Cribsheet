@@ -541,6 +541,18 @@ ___
 ## Media Queries 
 
 With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile or vice-versa.
+Lets say there is a **container** where `display: flex` and `flex-direction: column` but we want to make the `flex-direction: row;` when the screen is **600px or more**. We can use the following code:
+ 
+``` css
+
+@media screen and (min-width: 600px){
+  .container{
+    flex-direction: row;
+  }
+}
+
+```
+
 
 ___
 
