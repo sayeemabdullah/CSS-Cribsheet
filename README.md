@@ -583,6 +583,21 @@ ___
 
 ## Typography
 
+`There are three categories of fonts :
+
+* Serif
+* Sans-serif 
+* Monospace 
+
+Inside each categories there are many fonts. `font-family` is most commonly used to set fonts for a specific paragraph, container or the whole body. After typing `font-family:` if we press <kbd>Ctrl</kbd> + <kbd>Space</kbd> we can see many **stacks** of **Websafe fonts**.
+
+```css
+font-family: 'Courier New', Courier, monospace;
+```
+
+Here if **'Courier New'** os not available it wil use **Courier** and so on. Some of the keyword to remeber is `font-weight`, `font-style`, `font-size` and `color`.
+
+
 
 
 ___
