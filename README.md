@@ -42,7 +42,7 @@ ___
 |[Grid](https://github.com/sayeemabdullah/CSS-Cribsheet#grid)|
 |[Hiding Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#hiding-elements)|
 |[Media Queries](https://github.com/sayeemabdullah/CSS-Cribsheet#media-queries)|
-
+|[Typography](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#typography)|
 
 
 ## How to connect CSS with HTML?
