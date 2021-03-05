@@ -577,7 +577,7 @@ We can also use both in case like you want to change the background color when t
 
 ```
 
-There is another type of `@media` which is `@media print` which only applies to printer. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as `cm`.
+There is another type of `@media` which is `@media print` which only applies to printer. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as **cm**.
 
 ___
 
