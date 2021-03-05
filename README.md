@@ -4,6 +4,8 @@
 
 ___
 
+Before starting I would like to recommend some tools and extensions which will make our coding experience easier and better. We can use [Visual Studio Code](https://code.visualstudio.com/) as our code editor. Inside **Visual Studio Code** we can install [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to make our code prettier and easy to read/debug and [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) which will run our project in our localhost. 
+
 Starting with the basic, there are **three ways of using CSS**:
 
 * **Embedded Stylesheets:** using CSS inside HTML file 
