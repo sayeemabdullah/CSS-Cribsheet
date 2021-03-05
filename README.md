@@ -536,5 +536,6 @@ ___
 
 ## Media Queries 
 
+With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile and vice-versa. 
 
 ___
