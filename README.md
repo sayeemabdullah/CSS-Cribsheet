@@ -541,7 +541,7 @@ ___
 ## Media Queries 
 
 With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile or vice-versa.
-Lets say there is a **container** where `display: flex` and `flex-direction: column` but we want to make the `flex-direction: row` when the screen is **600px or more**. We can use the following code:
+Lets say there is a **container** where `display: flex` and `flex-direction: column` but we want to make the `flex-direction: row;` when the screen is **600px or more**. We can use the following code:
  
 ``` css
 
@@ -553,6 +553,30 @@ Lets say there is a **container** where `display: flex` and `flex-direction: col
 
 ```
 
+And now if we want to change the background color of a box when the screen is **700x or less**, we can use the  following code:
+
+``` css
+
+@media screen and (max-width: 700px){
+  .box{
+    background-color: deepskyblue;
+  }
+}
+
+```
+ 
+We can also use both in case like you want to change the background color when the screen is **between 600px to 700px**, we can use:
+
+``` css
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+  .box{
+    background-color: deepskyblue;
+  }
+}
+
+```
 
 ___
+
 
