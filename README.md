@@ -595,7 +595,7 @@ Inside each categories there are many fonts. `font-family` is most commonly used
 font-family: 'Courier New', Courier, monospace;
 ```
 
-Here if **'Courier New'** os not available it wil use **Courier** and so on. Some of the keyword to remeber is `font-weight`, `font-style`, `font-size` and `color`.
+Here if **'Courier New'** is not available it wil use **Courier** and so on. Some of the keyword to remeber is `font-weight`, `font-style`, `font-size` and `color`.
 
 
 
