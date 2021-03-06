@@ -589,7 +589,7 @@ ___
 * Sans-serif 
 * Monospace 
 
-Inside each categories there are many fonts. `font-family` is most commonly used to set fonts for a specific paragraph, container or the whole body. After typing `font-family:` if we press <kbd>Ctrl</kbd> + <kbd>Space</kbd> we can see many **stacks** of **Websafe fonts**.
+Inside each categories there are many fonts. `font-family` is most commonly used to set fonts for a specific paragraph, container or the whole body. If we are using **Visual Studio Code**, after typing `font-family:` if we press <kbd>Ctrl</kbd> + <kbd>Space</kbd> we can see many **stacks** of **Websafe fonts**.
 
 ```css
 font-family: 'Courier New', Courier, monospace;
