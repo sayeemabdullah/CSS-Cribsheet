@@ -623,6 +623,27 @@ In the place of **URL** we will write the directory of the file and change the n
 
 Sometimes due to the slow internet connection or some other reason, the text takes time to load so in that case, we can set the `display` to `swap` which will swap with another font until the styling font loads, to `fallback` or `optional` which will show the secondary font and wait let’s say 10 seconds and within that if the styling font doesn’t load it will keep the secondary font. We can also use `block` which will show nothing until the styling font loads but it is not recommended as if the font never loads the field will be empty. 
 
-We can use some Font Services like [Google Web Fonts](fonts.google.com), [Adobe Web Fonts](fonts.adobe.com), and many more. 
+We can use some Font Services like [Google Web Fonts](fonts.google.com), [Adobe Web Fonts](fonts.adobe.com), and many more. We can also use the **System Font Stack** which selects font according to the operating system we are using. We can use the following code:
+
+``` css
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+```
+
+While selecting the `font-size` we can take help from https://type-scale.com which will help us to select a more accurate size. 
+
+
+To change the **Vertical Space** between fonts we use `line-height`. The general rules of `1.5` times of the font-size but can be changed according to one’s webpage. And to change the **Horizontal Space** between letters we use `letter-spacing` and **Horizontal Space** between words we can use `word-spacing`. Something to remember, the **ideal line length is 50-70 characters**. To do that we can use the following code:
+
+``` css
+
+width: 50ch;
+
+``` 
+
+To format text we can use `text-align`, `text-intent`, `text-decoration` , `text-transform`, `white-space` and so on. 
+
 
 ___
