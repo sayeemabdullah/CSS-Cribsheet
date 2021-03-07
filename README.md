@@ -595,7 +595,7 @@ Inside each categories there are many fonts. `font-family` is most commonly used
 font-family: 'Courier New', Courier, monospace;
 ```
 
-Here if **'Courier New'** is not available it wil use **Courier** and so on. Some of the keyword to remeber is `font-weight`, `font-style`, `font-size` and `color`.
+Here if **'Courier New'** is not available it will use **Courier** and so on. Some of the keyword to remember is `font-weight`, `font-style`, `font-size` and `color`.
 
 We can also download paid or free fonts from websites like www.fonts.com,  www.myfonts.com, and www.fontsquirrel.com. There are many formats like **TTF**, **OTF**, **EOT**, **WOFF**, and **WOFF 2.0**. **WOFF** and **WOFF 2.0** are recommended for the web. To check the font is supported by which browser we can check it on www.caniuse.com. 
 
@@ -619,7 +619,7 @@ Let’s say we added **Open-sans WOF and WOFF 2.0** formatted file in our projec
 }
 ```
 
-In the place of **URL** we will write the directory of the file and change the name of the **font-family** to what we wish to call them by. It is recommended to name something which is easy to read and relevant. 
+In the place of **URL** we will write the directory of the file and change the name of the **font-family** to what we wish to call them by. It is recommended to name something easy to read and relevant. 
 
 Sometimes due to the slow internet connection or some other reason, the text takes time to load so in that case, we can set the `display` to `swap` which will swap with another font until the styling font loads, to `fallback` or `optional` which will show the secondary font and wait let’s say 10 seconds and within that if the styling font doesn’t load it will keep the secondary font. We can also use `block` which will show nothing until the styling font loads but it is not recommended as if the font never loads the field will be empty. 
 
@@ -671,7 +671,7 @@ body {
 }
 ```
 
-Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. To download **SVG** backgroud we can visit https://www.svgbackgrounds.com.
+Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. To download **SVG** background we can visit https://www.svgbackgrounds.com.
 
 
 #### CSS Sprites
@@ -729,6 +729,19 @@ We can also switch the image resolution according to screen size like following:
 
 ```
 
-We can see the breakpoint of an image in https://responsivebreakpoints.com. 
+We can see the breakpoint of an image in https://responsivebreakpoints.com.  It is recommended to use a modern format that is **webp** but **Internet Explorer** doesn’t support this format. To use it on **Internet Explorer** we can use the below code: 
+
+``` html
+    <picture>
+      <source type="image/webp" srcset="images/meal.webp" />
+      <img src="/images/meal.webp" />
+    </picture>
+
+```
+
+We can download free and paid icons from [Font Awesome](https://fontawesome.com/) or any other website. We will get a **script link** which we will put in the **head** of our **HTML** file. 
 
 ___
+
+
+
