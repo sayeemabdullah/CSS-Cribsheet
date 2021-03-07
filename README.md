@@ -43,7 +43,7 @@ ___
 |[Hiding Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#hiding-elements)|
 |[Media Queries](https://github.com/sayeemabdullah/CSS-Cribsheet#media-queries)|
 |[Typography](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#typography)|
-
+|[Images](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#images)|
 
 ## How to connect CSS with HTML?
 
@@ -645,5 +645,9 @@ width: 50ch;
 
 To format text we can use `text-align`, `text-intent`, `text-decoration` , `text-transform`, `white-space` and so on. 
 
+
+___
+
+##Images
 
 ___
