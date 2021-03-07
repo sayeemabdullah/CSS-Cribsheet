@@ -679,4 +679,18 @@ Here in `background`, the link to the image is provided. The background is repea
 We can find multiple **CSS Sprites generators** on the internet like [CSS Sprites Tool](https://cssspritestool.com/). So basically it takes all the images and makes them into one and also generates a **.css** file we have to copy the classes into our style sheet. After that, we can call them in a `span` anywhere in our project.  
 
 
+#### Data URLs
+
+We can embed our images to URL but it increases the size and complexity. To do so we can use [CSS Portal](https://www.cssportal.com/) or any other sites. 
+
+
+#### Clipping 
+
+We can clip our images by different websites such as [bennettfeely](https://bennettfeely.com/clippy/). We don’t need photoshop or other software to do that anymore. These websites code like below which we can simply use in our image class
+
+``` css
+clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+```
+
+
 ___
