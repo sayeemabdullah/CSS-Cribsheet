@@ -650,4 +650,27 @@ ___
 
 ## Images
 
+To add images to our page we can use the following code:
+
+``` html
+
+<img class="meal" src="/images/meal.jpg" alt="A picture of a meal" />
+
+```
+
+If we want to choose a background image we can use code like the following:
+
+``` css
+body {
+  background: url(/images/bg-paper@2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  height: 100vh
+}
+```
+
+Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. 
+
 ___
