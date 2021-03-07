@@ -693,4 +693,19 @@ clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20
 ```
 
 
+If there are multiple screens with different resolutions, so sometime we might see that an image is alright on mobile but looks a little blurry in a better resolution mobile. In that case, we can use the same image with different resolutions file like below:
+
+``` html
+    <img
+      src="/images/meal.jpg"
+      alt="A bowl of Salmon and Curry"
+      class="meal"
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg 1000w,
+        images/meal@3x.jpg 1200w
+      "
+    />
+
+
 ___
