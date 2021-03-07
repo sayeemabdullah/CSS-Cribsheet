@@ -676,7 +676,7 @@ Here in `background`, the link to the image is provided. The background is repea
 
 #### CSS Sprites
 
-We can find multiple CSS Sprites generators on the internet. So basically it takes all the images and makes them into one and also generates a **.css** file we have to copy the classes into our style sheet. After that, we can call them in a `span` anywhere in our project.  
+We can find multiple **CSS Sprites generators** on the internet like [CSS Sprites Tool](https://cssspritestool.com/). So basically it takes all the images and makes them into one and also generates a **.css** file we have to copy the classes into our style sheet. After that, we can call them in a `span` anywhere in our project.  
 
 
 ___
