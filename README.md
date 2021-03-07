@@ -709,4 +709,26 @@ There are multiple screens with different resolutions, so sometimes we might see
     />
 ```
 
+We can also switch the image resolution according to screen size like following:
+
+``` html
+<img
+      src="/images/meal.jpg"
+      alt="A bowl of Salmon and Curry"
+      class="meal"
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg 1000w,
+        images/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-width: 500px) 100vw,
+      (max-width: 700px) 50vw , 
+      33vw"
+    />
+
+```
+
+We can see the breakpoint of an image in https://responsivebreakpoints.com. 
+
 ___
