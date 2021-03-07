@@ -691,9 +691,10 @@ We can clip our images by different websites such as [bennettfeely](https://benn
 ``` css
 clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 ```
+<br/>
 
 
-If there are multiple screens with different resolutions, so sometime we might see that an image is alright on mobile but looks a little blurry in a better resolution mobile. In that case, we can use the same image with different resolutions file like below:
+There are multiple screens with different resolutions, so sometimes we might see that an image is alright on mobile but looks a little blurry in a better resolution mobile. In that case, we can use the same image with different resolutions file like below:
 
 ``` html
     <img
