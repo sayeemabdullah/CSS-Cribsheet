@@ -597,7 +597,28 @@ font-family: 'Courier New', Courier, monospace;
 
 Here if **'Courier New'** is not available it wil use **Courier** and so on. Some of the keyword to remeber is `font-weight`, `font-style`, `font-size` and `color`.
 
+We can also download paid or free fonts from websites like www.fonts.com,  www.myfonts.com, and www.fontsquirrel.com. There are many formats like **TTF**, **OTF**, **EOT**, **WOFF**, and **WOFF 2.0**. **WOFF** and **WOFF 2.0** are recommended for the web. To check the font is supported by which browser we can check it on www.caniuse.com. 
 
+Let’s say we added **Open-sans WOF and WOFF 2.0** formatted file in our project directory after that we have to add the below code so that we can use it in our project:
 
+``` css
+@font-face {
+  font-family: "opensans";
+  src: url("./fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+    url("./fonts/open-sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("./fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("./fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+```
+
+In the place of **URL** we will write the directory of the file and change the name of the **font-family** to what we wish to call them by. It is recommended to name something which is easy to read and relevant. 
 
 ___
