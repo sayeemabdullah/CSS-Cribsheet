@@ -671,7 +671,7 @@ body {
 }
 ```
 
-Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. 
+Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. To download **SVG** backgroud we can visit https://www.svgbackgrounds.com.
 
 
 #### CSS Sprites
