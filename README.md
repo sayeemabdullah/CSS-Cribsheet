@@ -621,4 +621,7 @@ Let’s say we added **Open-sans WOF and WOFF 2.0** formatted file in our projec
 
 In the place of **URL** we will write the directory of the file and change the name of the **font-family** to what we wish to call them by. It is recommended to name something which is easy to read and relevant. 
 
+Sometimes due to the slow internet connection or some other reason, the text takes time to load so in that case, we can set the `display` to `swap` which will swap with another font until the styling font loads, to `fallback` or `optional` which will show the secondary font and wait let’s say 10 seconds and within that if the styling font doesn’t load it will keep the secondary font. We can also use `block` which will show nothing until the styling font loads but it is not recommended as if the font never loads the field will be empty. 
+
+
 ___
