@@ -648,6 +648,6 @@ To format text we can use `text-align`, `text-intent`, `text-decoration` , `text
 
 ___
 
-##Images
+## Images
 
 ___
