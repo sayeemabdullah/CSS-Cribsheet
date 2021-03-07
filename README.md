@@ -706,6 +706,6 @@ If there are multiple screens with different resolutions, so sometime we might s
         images/meal@3x.jpg 1200w
       "
     />
-
+```
 
 ___
