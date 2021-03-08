@@ -862,4 +862,32 @@ Sometimes we let users select suggestions from a list. To do so we can use the b
 
 
 
+#### Drop-down List 
+
+To make a drop-down list we can do the below:
+
+``` html
+ <select>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3" selected>JavaScript</option>
+</select>
+
+```
+We can also use `optgroup` to make multiple groups: 
+
+``` html
+      <select>
+        <optgroup label="Front-end">
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3" selected>JavaScript</option>
+        </optgroup>
+        <optgroup label="Back-end">
+          <option value="1">Java</option>
+          <option value="2">Python</option>
+        </optgroup>
+      </select>
+```
+
 ___
