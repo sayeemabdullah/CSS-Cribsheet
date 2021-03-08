@@ -815,7 +815,7 @@ button {
 
 
 ``` 
-This code is just a sample so that we can have an idea and most of the things are self-explanatory.
+This code is just a sample so that we can have an idea and most of the things are self-explanatory. If you don't have a backend you can use https://formspree.io to send email and other form services. 
 
 ___
 
