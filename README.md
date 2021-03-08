@@ -45,10 +45,14 @@ ___
 |[Typography](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#typography)|
 |[Images](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#images)|
 |[Forms](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#forms)|
+|[CSS Frameworks](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#css-frameworks)|
+|[Text Fields](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#text-fields)|
+|[Lists](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#lists)|
 |[]()|
 |[]()|
 |[]()|
 |[]()|
+
 
 ## How to connect CSS with HTML?
 
