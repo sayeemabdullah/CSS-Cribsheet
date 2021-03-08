@@ -36,7 +36,7 @@ ___
 |[Box Model](https://github.com/sayeemabdullah/CSS-Cribsheet#box-model)|
 |[Overflow](https://github.com/sayeemabdullah/CSS-Cribsheet#overflow)|
 |[Measurement Units](https://github.com/sayeemabdullah/CSS-Cribsheet#measurement-units)|
-|[Postioning](https://github.com/sayeemabdullah/CSS-Cribsheet#postioning)|
+|[Positioning](https://github.com/sayeemabdullah/CSS-Cribsheet#positioning)|
 |[Floating Elements](https://github.com/sayeemabdullah/CSS-Cribsheet#floating-elements)|
 |[FlexBox](https://github.com/sayeemabdullah/CSS-Cribsheet#flexbox)|
 |[Grid](https://github.com/sayeemabdullah/CSS-Cribsheet#grid)|
