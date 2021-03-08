@@ -50,6 +50,7 @@ ___
 |[Lists](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#lists)|
 |[Transformations & Transitions](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#transformations--transitions)|
 |[Animations](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#animations)|
+|[]()|
 <!---|[]()|
 |[]()|--->
 
@@ -942,6 +943,22 @@ Our CSS animation can have many `@keyframes`. It can be used as below:
 ```
 
 Here **0%**,**25%** and others are the fraction of `animation-duration`, and other functions are self-explanatory. We can also use reusable animation and find them on websites like https://animate.style.
+
+___
+
+## Variables
+
+We can set variables and which can be used later in the code. We have to do the following:
+
+``` css
+
+:root {
+  --color-primary: yellow;
+}
+
+```
+
+So later in the code, we can use it only by calling `var(--color-primary)`. 
 
 ___
 
