@@ -896,3 +896,45 @@ We can also use `optgroup` to make multiple groups:
 
 ___
 
+## Animations
+
+Our CSS animation can have many `@keyframes`. It can be used as below: 
+
+``` css
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.3);
+  }
+
+  50% {
+    transform: rotate(45deg);
+    background: tomato;
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+    animation-name: pop;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+
+}
+```
+
+Here **0%**,**25%** and others are the fraction of `animation-duration`, and other functions are self-explanatory. We can also use reusable animation and find them on websites like https://animate.style.
+
+___
+
