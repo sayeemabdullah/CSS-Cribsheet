@@ -749,7 +749,6 @@ ___
 
 ## Forms
 
-
 Starting with the basic form. The code looks something like this:
 
 ``` html
@@ -764,9 +763,87 @@ Starting with the basic form. The code looks something like this:
       </div>
       <button type="submit">Submit</button>
       <button type="clear">Clear</button>
-    </form>
+</form>
 ```
+
+Here we use the **form** tag to make the form and **input** and **label** for input fields and their labels respectively. To style we can use the following code:
+
+``` css
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #7db0fb;
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+
+button {
+  background-color: #0d6efd;
+  color: white;
+  border: 0;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+
+``` 
+This code is just a sample so that we can have an idea and most of the things are self-explanatory.
 
 ___
 
 
+## CSS Frameworks
+
+There are many CSS Frameworks, some of them are:
+
+* Bootstrap 
+* Semantic UI
+* UI Kit
+* Materialize 
+* Milligram 
+
+___
+
+## Text Fields 
+
+There are different input types, some of them are:
+
+* `text`
+* `email`
+* `number`
+* `date`
+* `password`
+* `button`
+* `color`
+
+There are some attributes to remember is `readonly`, `value`, `disabled`, `placeholder`, and many more.
+
+___
+
+
+
+___
