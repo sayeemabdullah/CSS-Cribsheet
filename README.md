@@ -50,7 +50,7 @@ ___
 |[Lists](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#lists)|
 |[Transformations & Transitions](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#transformations--transitions)|
 |[Animations](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#animations)|
-|[]()|
+|[Variables](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#variables)|
 <!---|[]()|
 |[]()|--->
 
