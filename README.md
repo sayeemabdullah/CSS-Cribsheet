@@ -124,7 +124,7 @@ ___
 
 ##  Pseudo-class Selectors
 
-Pseudo-class is not something we define it’s something which the browser defines.
+Pseudo-class is not something we define it’s something that the browser defines.
 
  ``` css
   article :first-child {
@@ -269,21 +269,21 @@ A gradient shows the transition between two or more colors. If we want to write 
 ``` html
 <div class="box"></div>
 ```
-We can also change the transit to a different direction by adding `to right`, `to bottom right`, or according to our need. We can also use a specific degree like `45deg` and also select a **percentage** of a specific color in the gradient. We can also use `radial-gradient()`.
+We can also change the transit to a different direction by adding `to right`, `to the bottom right`, or according to our need. We can also use a specific degree like `45deg` and also select a **percentage** of a specific color in the gradient. We can also use `radial-gradient()`.
 
-https://cssgradient.io : This website is **recommended** to get the right gradient for your project as it generates the **CSS code** too. 
+https://cssgradient.io: This website is **recommended** to get the right gradient for your project as it generates the **CSS code** too. 
 
 ___
 
 ## Borders 
 
-Border takes **three values thickness, style, and color**. There are different types of styles `dashed`, `solid`, and so on. Something to remember while using `border-width` it takes 4 values in the following order  **Top-Right-Bottom-Left**. We can also use `border-color`, `border-radius` and so on.
+The border takes **three values thickness, style, and color**. There are different types of styles `dashed`, `solid`, and so on. Something to remember while using `border-width` it takes 4 values in the following order  **Top-Right-Bottom-Left**. We can also use `border-color`, `border-radius` and so on.
 
 ___
 
 ## Shadow 
 
-We can use `box-shadow` to make a shadow of box where we pass the following values **Horizontal Offset-Vertical Offset-Blur-Spread-Color-inset|initial|inherit**. We can also use `text-shadow` for a text. 
+We can use `box-shadow` to make a shadow of the box where we pass the following values **Horizontal Offset-Vertical Offset-Blur-Spread-Color-inset|initial|inherit**. We can also use `text-shadow` for a text. 
 
 ___
 
@@ -306,7 +306,7 @@ ___
 
 ## Overflow
 
-Sometimes in a fixed-sized element, overflow happens. In those cases, we use `overflow: hidden;` to hide the overflowed content or we can also use `overflow: scroll;` or `overflow: auto;`. To contol by the X (Horizontal) and Y (Vertical) axis by using two values like `overflow: hidden auto;`.
+Sometimes in a fixed-sized element, overflow happens. In those cases, we use `overflow: hidden;` to hide the overflowed content or we can also use `overflow: scroll;` or `overflow: auto;`. To control by the X (Horizontal) and Y (Vertical) axis by using two values like `overflow: hidden auto;`.
 
 ___
 
@@ -321,7 +321,7 @@ In **Absolute** there is **px (Pixel)** and in **Relative** there are **% (Perce
  
 ___
 
-## Postioning 
+## Positioning 
 
 We can position an element by setting values in 5 different ways. They are -
 
@@ -331,7 +331,7 @@ We can position an element by setting values in 5 different ways. They are -
 * **Absolute:** Relative to the parent (the container must be positioned “Relative”)
 * **Sticky:** Relative to the user's scroll position
 
-Another thing to remember is `z-index`. If `z-index` is negative that means the element is further than us and if positive that means closer. We can use `top`, `bottom`, `left` and `right` to fix the position but if and only if the `position` is not static.
+Another thing to remember is `z-index`. If `z-index` is negative that means the element is further than us and if positive that means closer. We can use `top`, `bottom`, `left`, and `right` to fix the position but if and only if the `position` is not static.
  
 
 ___
@@ -394,7 +394,7 @@ When using `justify-content` we can use `justify-content : flex-start` , `justif
 
 `flex-wrap` is another important property of flex. Let’s say when there are multiple boxes in a row so to keep them in a single line they shrink the size of the boxes but if we don’t want that we have to use `flex-wrap` and change the default (`nowrap`) to `wrap`.
 
-After this we will see that the boxes are not in the center of the axes to change this `align-content` comes which can align multiple lines or whole content. 
+After this, we will see that the boxes are not in the center of the axes to change this `align-content` comes which can align multiple lines or whole content. 
 
 To style a **flex item** we can use `align-self`.
 
@@ -420,7 +420,7 @@ ___
 
 ## Grid 
 
-Grid is a grid-based layout by rows and columns. Starting with the basic, we can define grid by the following ways -
+Grid is a grid-based layout by rows and columns. Starting with the basic, we can define the grid in the following ways -
 
 ``` css
   /* 3X2  */
@@ -452,7 +452,7 @@ For aligning items we can use the following properties:
 * `align-content` : along the vertical axis
 
 
-`justify-items` and `align-items` is used to align items in the grid and `justify-content` and `align-content` to align the entire grid. 
+`justify-items` and `align-items` are used to align items in the grid and `justify-content` and `align-content` to align the entire grid. 
 
 If we want to change the size of the grid column or row by **fr (fraction : of the the existing free space)** or size we can do it like below:
 
@@ -463,7 +463,7 @@ grid-template: repeat(3, 100px) / 100px 30fr 70fr;
 
 #### Gap
 
-There are three properties for gap. They are -
+There are three properties for the gap. They are -
 
 * `row-gap` : Gaps between rows
 * `column-gap` : Gaps between columns 
@@ -574,7 +574,7 @@ And now if we want to change the background color of a box when the screen is **
 
 ```
  
-We can also use both in case like you want to change the background color when the screen is **between 600px to 700px**, we can use:
+We can also use both in a case like we want to change the background color when the screen is **between 600px to 700px**, we can use:
 
 ``` css
 
@@ -586,7 +586,7 @@ We can also use both in case like you want to change the background color when t
 
 ```
 
-There is another type of `@media` which is `@media print` which only applies to printer. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as **cm**.
+There is another type of `@media` which is `@media print` which only applies to printers. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as **cm**.
 
 ___
 
@@ -815,7 +815,7 @@ button {
 
 
 ``` 
-This code is just a sample so that we can have an idea and most of the things are self-explanatory. If you don't have a backend you can use https://formspree.io to send email and other form services. 
+This code is just a sample so that we can have an idea and most of the things are self-explanatory. If you don't have a backend you can use https://formspree.io to send an email and other form services. 
 
 ___
 
@@ -895,3 +895,4 @@ We can also use `optgroup` to make multiple groups:
 ```
 
 ___
+
