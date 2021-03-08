@@ -46,7 +46,7 @@ ___
 |[Images](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#images)|
 |[Forms](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#forms)|
 |[CSS Frameworks](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#css-frameworks)|
-|[Text Fields](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#text-fields)|
+|[Inputs](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#inputs)|
 |[Lists](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#lists)|
 |[]()|
 |[]()|
@@ -832,7 +832,7 @@ There are many CSS Frameworks, some of them are:
 
 ___
 
-## Text Fields 
+## Inputs
 
 There are different input types, some of them are:
 
