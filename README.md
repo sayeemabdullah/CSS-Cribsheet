@@ -48,9 +48,9 @@ ___
 |[CSS Frameworks](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#css-frameworks)|
 |[Inputs](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#inputs)|
 |[Lists](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#lists)|
+|[Transformations & Transitions](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#transformations--transitions)|
+|[Animations](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#animations)|
 <!---|[]()|
-|[]()|
-|[]()|
 |[]()|--->
 
 
