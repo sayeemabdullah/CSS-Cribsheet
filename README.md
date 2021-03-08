@@ -893,6 +893,13 @@ We can also use `optgroup` to make multiple groups:
         </optgroup>
       </select>
 ```
+___
+
+## Transformations & Transitions
+
+There are some functions for transformation. Some of them are **rotate()** which rotates an element, **scale()** which scales an element . **skew()** which tilts an element and **translate()** which makes an element move and if we want to move along the axis we can use **translateX()** and **translateY()**. We can also make the element transform in 3D using **perspective()** which is the distance between the user and the element and after that using **translateZ()**. To rotate an element we can use **rotateX()** and **rotateY()**. 
+
+We can choose the time of transition by `transition: transform 0.5s` or add `color` and many more. 
 
 ___
 
