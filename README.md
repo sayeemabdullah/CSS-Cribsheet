@@ -742,5 +742,26 @@ We can download free and paid icons from [Font Awesome](https://fontawesome.com/
 
 ___
 
+## Forms
+
+
+Starting with the basic form. The code looks something like this:
+
+``` html
+<form>
+      <div>
+        <label for="name">Name: </label>
+        <input id="name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input id="email" type="email" />
+      </div>
+      <button type="submit">Submit</button>
+      <button type="clear">Clear</button>
+    </form>
+```
+
+___
 
 
