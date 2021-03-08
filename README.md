@@ -844,6 +844,22 @@ There are some attributes to remember is `readonly`, `value`, `disabled`, `place
 
 ___
 
+## Lists
+
+#### Data Lists  
+
+Sometimes we let users select suggestions from a list. To do so we can use the below code:
+ 
+``` html
+<input type="text" list="countries" autocomplete="off" />
+      <datalist id="countries">
+        <option>Bangladesh</option>
+        <option>Canada</option>
+        <option>USA</option>
+        <option>Germany</option>
+      </datalist>
+```
+
 
 
 ___
