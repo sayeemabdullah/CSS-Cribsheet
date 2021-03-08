@@ -44,6 +44,11 @@ ___
 |[Media Queries](https://github.com/sayeemabdullah/CSS-Cribsheet#media-queries)|
 |[Typography](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#typography)|
 |[Images](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#images)|
+|[Forms](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#forms)|
+|[Forms](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#forms)|
+|[]()|
+|[]()|
+|[]()|
 
 ## How to connect CSS with HTML?
 
