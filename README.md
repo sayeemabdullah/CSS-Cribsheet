@@ -1,6 +1,6 @@
 # CSS Cribsheet 
 
-> CSS which stands for Cascading Style Sheets which is a Styling Language. This is an initiative to make small notes on CSS which may help me or anyone else in the future.
+> CSS which stands for Cascading Style Sheets is a Styling Language. This is an initiative to make small notes on CSS which may help me or anyone else in the future.
 
 ___
 
