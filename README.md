@@ -44,7 +44,7 @@ ___
 |[Media Queries](https://github.com/sayeemabdullah/CSS-Cribsheet#media-queries)|
 |[Typography](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#typography)|
 |[Images](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#images)|
-|[Embed With Google Maps]()|
+|[Embed With Google Maps](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#embed-with-google-maps)|
 |[Forms](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#forms)|
 |[CSS Frameworks](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#css-frameworks)|
 |[Inputs](https://github.com/sayeemabdullah/CSS-Cribsheet/blob/main/README.md#inputs)|
@@ -766,6 +766,7 @@ ___
 ## Embed With Google Maps
 
 Putting a map of a pace is easier than we think all we just need is to go to the google map and search for the place. After that there we will find a **share** option and after pressing it we will find **Embed a map**. From there all we have to do is copy the HTML and put it in our code. 
+
 ___
 
 ## Forms
@@ -977,9 +978,3 @@ We can set variables and which can be used later in the code. We have to do the 
 So later in the code, we can use it only by calling `var(--color-primary)`. 
 
 ___
-
-
-
-
-
-
