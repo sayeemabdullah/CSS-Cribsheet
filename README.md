@@ -593,8 +593,8 @@ We can use two or more **style sheets / CSS files** which can be used as shown b
 
 ``` html
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width : 630px)" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/mobile.css" media="(max-width : 630px)" />
 
 ```  
 So here when the width is less or equal to 630px, **style.css** will be overridden by **mobile.css**. 
