@@ -652,7 +652,7 @@ We can use some Font Services like [Google Web Fonts](fonts.google.com), [Adobe 
 
 ```
 
-While selecting the `font-size` we can take help from https://type-scale.com which will help us to select a more accurate size. 
+While selecting the `font-size`, we can help from https://type-scale.com, which will help us select a more accurate size. 
 
 
 To change the **Vertical Space** between fonts we use `line-height`. The general rules of `1.5` times of the font-size but can be changed according to one’s webpage. And to change the **Horizontal Space** between letters we use `letter-spacing` and **Horizontal Space** between words we can use `word-spacing`. Something to remember, the **ideal line length is 50-70 characters**. To do that we can use the following code:
@@ -690,7 +690,7 @@ body {
 }
 ```
 
-Here in `background`, the link to the image is provided. The background is repeated in default so we can disable the background repetition by `background-repeat` or can set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the position of the image and to keep the image fixed relative to the viewport we can use `background-attachment: fixed`. To download **SVG** background we can visit https://www.svgbackgrounds.com.
+Here in `background`, the link to the image is provided. The background is repeated in default to disable the background repetition by `background-repeat` or set the axis of repetition by setting `background-repeat: repeat-x` or `background-repeat: repeat-y`. The `background-size` is set according to size and uses `cover` to cover the whole screen. We can also use `background-position` to change the image’s position and keep the image fixed relative to the viewport we can use `background-attachment: fixed`. To download **SVG** background we can visit https://www.svgbackgrounds.com.
 
 
 #### CSS Sprites
