@@ -765,7 +765,7 @@ ___
 
 ## Embed With Google Maps
 
-Putting a map of a pace is easier than we think all we just need is to go to the google map and search for the place. After that there we will find a **share** option and after pressing it we will find **Embed a map**. From there all we have to do is copy the HTML and put it in our code. 
+Putting a map of a place is easier than we think all we just need is to go to the [**google map**](https://www.google.com/maps) and search for the place. After that there we will find a **share** option and after pressing it we will find **Embed a map**. From there all we have to do is copy the HTML and put it in our code. 
 
 ___
 
