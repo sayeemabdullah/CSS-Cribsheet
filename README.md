@@ -159,7 +159,7 @@ Let say we want to change the color of the visited link to red we can use the fo
 }
   ```
 
-We can also use `a:link` to change the color of unvisited link and if we want to change color when the user hover we can use `a:hover` and also add `a:focus` so that if the user using tab key it will focus.
+We can also use `a:link` to change the color of the unvisited link and if we want to change color when the user hover we can use `a:hover` and also add `a:focus` so that if the user using tab key it will focus.
 
 ___
 
@@ -173,7 +173,7 @@ Pseudo-element is also not something we define it’s something which the browse
 }
   ```
   
-So if we write the above code the first word of each paragraph will have a font-size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If we want to add something before or after a paragraph we can use `p::before` and `p::after` respectively. 
+So if we write the above code the first word of each paragraph will have a font size of 140%. We can also use `p::first-line` to make changes in the first line, `p::selection` to make changes when someone selects the words in the paragraph. If we want to add something before or after a paragraph we can use `p::before` and `p::after` respectively. 
 
 ___
 
@@ -188,7 +188,7 @@ If we want to make all the element types into a specific style we use `*` as fol
   ```
 
 ___
-##  Selectors Specificty
+##  Selectors Specificity
 
 While coding different selectors sometimes triggers the same elements more than once like below:
 
@@ -421,7 +421,7 @@ ___
 
 ## Grid 
 
-Grid is a grid-based layout by rows and columns. Starting with the basic, we can define the grid in the following ways -
+Grid is a grid-based layout with rows and columns. Starting with the basic, we can define the grid in the following ways -
 
 ``` css
   /* 3X2  */
@@ -550,7 +550,7 @@ ___
 
 ## Media Queries 
 
-With media queries, we can give different styles for different devices like a style for **mobile** and another style for **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile or vice-versa.
+With media queries, we can give different styles for different devices like **mobile** and **desktop** depending on their features. During designing a responsive design we can first design for the desktop and then adjust for mobile or vice-versa.
 Lets say there is a **container** where `display: flex` and `flex-direction: column` but we want to make the `flex-direction: row` when the screen is **600px or more**. We can use the following code:
  
 ``` css
@@ -587,7 +587,17 @@ We can also use both in a case like we want to change the background color when 
 
 ```
 
-There is another type of `@media` which is `@media print` which only applies to printers. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as **cm**.
+Another type of `@media` is `@media print`, which only applies to printers. When using `@media print` we will use **measuring unit** of `font-size` as **pt** and `padding` as **cm**.
+
+We can use two or more **style sheets / CSS files** which can be used as shown below:
+
+``` html
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width : 630px)" />
+
+```  
+So here when the width is less or equal to 630px, **mobile.css** will be also used or we can be overridden. 
 
 ___
 
@@ -695,7 +705,7 @@ We can embed our images to URL but it increases the size and complexity. To do s
 
 #### Clipping 
 
-We can clip our images by different websites such as [bennettfeely](https://bennettfeely.com/clippy/). We don’t need photoshop or other software to do that anymore. These websites code like below which we can simply use in our image class
+We can clip our images on different websites such as [bennettfeely](https://bennettfeely.com/clippy/). We don’t need photoshop or other software to do that anymore. These websites code like below which we can simply use in our image class
 
 ``` css
 clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
@@ -845,7 +855,7 @@ There are different input types, some of them are:
 * `button`
 * `color`
 
-There are some attributes to remember is `readonly`, `value`, `disabled`, `placeholder`, and many more.
+Some attributes to remember are `readonly`, `value`, `disabled`, `placeholder`, and many more.
 
 ___
 
@@ -961,4 +971,6 @@ We can set variables and which can be used later in the code. We have to do the 
 So later in the code, we can use it only by calling `var(--color-primary)`. 
 
 ___
+
+
 
